@@ -1,0 +1,29 @@
+import React, { Component } from "react";
+
+class FooterComponent extends Component {
+  render() {
+    return (
+      <div>
+        <footer className="footer py-2 ">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-4 text-lg-start">INTADM22JF020POD1</div>
+              <div className="col-lg-3 "> <a href="#" class="fa fa-facebook"> </a></div>
+              <div className="col-lg-2 "><a href="#" class="fa fa-twitter"></a></div>
+              <div className="col-lg-4 text-lg-end">
+                <a className="link-dark text-decoration-none me-3" href="#!">
+                  Privacy Policy
+                </a>
+                <a className="link-dark text-decoration-none" href="#!">
+                  Terms of Use
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    );
+  }
+}
+
+export default FooterComponent;
